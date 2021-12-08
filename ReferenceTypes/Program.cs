@@ -16,7 +16,6 @@ namespace ReferenceTypes
             Console.WriteLine("sayi1 :" + sayi1);
 
             //array, class,interface reference types(referans tipler)
-            //belleğin STACK kısmına adını, değerlerini ise HEAP'te tutar. Her "new" dediğimizde heap'te yeni bir adres tanımlar.
             int[] sayilar1 = new int[] { 1, 2, 3 };
             int[] sayilar2 = new int[] { 10, 20, 30 };
             sayilar1 = sayilar2;    //"sayilar1'in adresi = sayilar2'nin adresi" diye okunur.
@@ -61,12 +60,12 @@ namespace ReferenceTypes
     {
         public string CreditCardNumber { get; set; }
     }
-    
+            
     class Employee: Person   //Employee'nin içimde Person classına ek olarak EmployeeNumber var demek.
     {
         public int EmployeeNumber { get; set; }
     }
-    
+
     class PersonManager
     {
         public void Add(Person person) //Parametrem base temel olan person olduğu için Add fonksiyonunu rahatça Employee ve Customer için kullanabilirim.
