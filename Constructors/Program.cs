@@ -32,7 +32,7 @@ namespace Constructors
         }
         public Customer(int id, string firstName, string lastName, string city)   //ctor ile constructor oluşturuyoruz. Eğer bu bloğu kendimiz yazarsak default olarak gelen constructor'ı ezmiş oluruz.
         {
-            Id = Id;
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
             City = city;
