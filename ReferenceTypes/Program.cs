@@ -71,7 +71,7 @@ namespace ReferenceTypes
     {
         public void Add(Person person) //Parametrem base temel olan person olduğu için Add fonksiyonunu rahatça Employee ve Customer için kullanabilirim.
         {
-            Console.WriteLine(person.FirstName + "Eklendi.");
+            Console.WriteLine(person.FirstName + " Eklendi.");
         }
     }
 }
