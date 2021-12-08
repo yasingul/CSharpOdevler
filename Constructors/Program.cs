@@ -4,14 +4,14 @@ namespace Constructors
 {
     //Constructor bir class'ı new'lediğimiz zaman oluşan bloktur.
     //parametresi olmaya contructor'a default constructor denir.
-    //constructorlar method'lar gibi kullanılabilir.
+    //constructorlar method'lar gibi kullanılabilir. 
     class Program
     {
         static void Main(string[] args)
         {
             Customer customer1 = new Customer () {Id=1, FirstName="Yasin", LastName="GÜL", City="Antalya" };    //new işlemi yapılır yapılmaz constructor çalışır. Burada default constructor çalıştırmış olduk.
             
-            Customer customer2 = new Customer (2, "Ece", "Küçükşahin", "İstanbul");     //üsttekiyle aynı şeyi yaptık aslında. Burada ise kendi olşturduğumuz constructor'u oluşturmuş olduk.
+            Customer customer2 = new Customer (2, "Ece", "Gül", "İstanbul");     //üsttekiyle aynı şeyi yaptık aslında. Burada ise kendi olşturduğumuz constructor'u oluşturmuş olduk.
 
             Customer customer3 = new Customer();    //10. satırda ki kullanımla aynı kullanım.
             customer3.Id = 3; 
