@@ -4,7 +4,7 @@ namespace Constructors
 {
     //Constructor bir class'ı new'lediğimiz zaman oluşan bloktur.
     //parametresi olmaya contructor'a default constructor denir.
-    //constructorlar method'lar gibi kullanılabilir.
+    //constructorlar method'lar gibi kullanılabilir. 
     class Program
     {
         static void Main(string[] args)
