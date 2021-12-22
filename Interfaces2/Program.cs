@@ -24,6 +24,8 @@ namespace Interfaces2
 
             ProjectManager projectManager = new ProjectManager();
             projectManager.Add(new InternManager());
+
+            Console.ReadLine();
         }
     }
     class PersonManager
