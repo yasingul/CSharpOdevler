@@ -9,7 +9,6 @@ namespace CSharpOdevler
 
             Console.WriteLine("Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR) Ödevleri");
 
-            Console.WriteLine("Hello World!");
 
         }
     }
